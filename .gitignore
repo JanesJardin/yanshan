@@ -1,0 +1,34 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# maven ignore
+wongder-parent/out
+wongder-core/target
+wongder-admin/target
+wongder-rest/target
+
+# eclipse ignore
+.settings/
+.classpath
+.project
+logs/
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# idea ignore
+.idea/
+*.iml
+*.ipr
+*iws
+
+*velocity.log*
+
